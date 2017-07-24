@@ -1,0 +1,66 @@
+package Game_Objects;
+import java.util.Hashtable;
+
+public class character {
+
+	String char_name;
+	String class_type;
+	int level;
+	String background;
+	String race;
+	String align;
+	int exp;
+	int strength;
+	int dexterity;
+	int constitution;
+	int intelligence;
+	int wisdom;
+	int charisma;
+	int str_s;
+	int dex_s;
+	int cons_s;
+	int int_s;
+	int wis_s;
+	int char_s;
+	int acro_a;
+	int anim_a;
+	int arca_a;
+	int athl_a;
+	int dece_a;
+	int his_a;
+	int intim_a;
+	int inve_a;
+	int med_a;
+	int nat_a;
+	int perc_a;
+	int perf_a;
+	int pers_a;
+	int reli_a;
+	int soh_a;
+	int stealth_a;
+	int surv_a;
+	int speed;
+	int maxhit;
+	int currhit;
+	int prof_bonus;
+	Hashtable<String,V)> basestats;
+	
+	
+	public character(int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma){
+		this.strength = strength;
+		this.dexterity = dexterity;
+		this.constitution = constitution;
+		this.intelligence = intelligence;
+		this.wisdom = wisdom;
+		this.charisma = charisma;
+		basestats.put("Strength", strength);
+		basestats.put("Dexterity", dexterity)
+		
+	}
+	
+	public String toString(){
+		return ("strength" + String.valueOf(strength) + "dexterity"
+	}
+	
+	
+}

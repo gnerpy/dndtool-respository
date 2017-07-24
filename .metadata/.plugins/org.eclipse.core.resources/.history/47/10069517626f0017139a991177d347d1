@@ -1,0 +1,7 @@
+package Class_Function;
+
+import Game_Objects.character;
+
+public class type_wizard extends character{
+
+}

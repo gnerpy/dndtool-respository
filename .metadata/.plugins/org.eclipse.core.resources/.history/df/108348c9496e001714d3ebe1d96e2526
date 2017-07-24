@@ -1,0 +1,33 @@
+package Game_Objects;
+
+public class character {
+
+	String char_name;
+	String class_type;
+	int level;
+	String background;
+	String race;
+	String align;
+	int exp;
+	int strength;
+	int dexterity;
+	int constitution;
+	int intelligence;
+	int wisdom;
+	int charisma;
+	int str_s;
+	int dex_s;
+	int cons_s;
+	int int_s;
+	int wis_s;
+	int char_s;
+	int acro_a;
+	int anim_a;
+	int arca_a;
+	int athl_a;
+	int dece_a;
+	int 
+	
+	
+	
+}

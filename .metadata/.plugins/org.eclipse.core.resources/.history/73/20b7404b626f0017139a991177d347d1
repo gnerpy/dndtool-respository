@@ -1,0 +1,16 @@
+package main;
+import Game_Objects.character;
+
+public class driver {
+
+
+	
+	public character createchar(int str, int dex, int con, int intel, int wis, int chari){
+		character newchar = new character(str, dex, con, intel, wis, chari);
+		return newchar;
+	}
+	
+	public static void main(String[] args) {
+		
+		}
+}

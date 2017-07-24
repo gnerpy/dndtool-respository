@@ -1,0 +1,18 @@
+package Dice_Roll;
+
+import java.util.Random;
+
+public class Randomizer {
+
+		int randNum;
+		int numRoll;
+		int diceType;
+		 
+		Randomizer(int numRoll, int diceType){
+			this.numRoll = numRoll;
+			this.diceType = diceType;
+			Random rand = new Random();
+			int  n = rand.nextInt(50) + 1;
+		}
+	
+}

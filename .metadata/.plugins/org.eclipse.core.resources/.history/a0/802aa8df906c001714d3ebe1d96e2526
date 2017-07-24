@@ -1,0 +1,27 @@
+package Dice_Roll;
+
+import java.util.Random;
+
+public class Randomizer {
+
+		int randNum;
+		int numRoll;
+		int diceType;
+		int sum;
+		 
+		public Randomizer(int numRoll, int diceType){
+			this.numRoll = numRoll;
+			this.diceType = diceType;
+			this.sum = 0;
+			Random rand = new Random();
+			for(int i = 0; i < numRoll; i ++) {
+				randNum = rand.nextInt(diceType) + 1;
+				sum = sum + randNum;
+			}
+		}
+		
+		public int getdiceRoll() {
+			return this.sum;
+		}
+		
+}

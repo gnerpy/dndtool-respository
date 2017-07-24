@@ -1,0 +1,13 @@
+package main;
+import Dice_Roll.Randomizer;
+
+public class testClass {
+
+	public static void main(String[] args) {
+		Randomizer n = new Randomizer random(2, 20);
+		
+				
+		
+	}
+
+}
